@@ -1,59 +1,79 @@
 # AudioShift Privacy Policy
 
-Last updated: September 2, 2026
+Last updated: October 1, 2026
 
-AudioShift is a local audio practice and audio-export app. Audio processing, playback, analysis, tuning, recording, and export are performed on your device.
+AudioShift is a local music player, practice tool, and media workstation. Playback, analysis, recording, and editing take place on your device. AudioShift does not upload your media to the developer. This policy also explains the separate data handling involved when you contact support or visit our legal-information website.
 
-## Summary
+## Who is responsible and how to contact us
 
-AudioShift does not collect, transmit, sell, or share your personal data with the developer or third parties. The app does not use advertising, analytics, tracking technologies, or external data-collection services.
+The developer and controller responsible for support correspondence is Markus Flasnes (NoteGrid Apps), also identified on the App Store product page. Contact: [Note.Grid.Apps@gmail.com](mailto:Note.Grid.Apps@gmail.com).
 
-## User-Selected Audio Files and Folders
+## Selected files and local projects
 
-AudioShift accesses only the audio files and folders that you choose through the system file picker. The app may read the files and associated information, such as file names, artist metadata, artwork, file size, and modification date, to display your library, play audio, detect changes, and maintain a local cache.
+You choose files and folders through system pickers. AudioShift reads selected media and metadata, including filenames, artist, artwork, duration, size, and modification dates. Folder-access bookmarks, preferences, cached metadata, analyses, and practice data are stored locally. Practice data includes favourites, playback settings, lyrics, chords, notes, and imported reference images.
 
-AudioShift does not modify or overwrite selected source files. When you choose to export, the app renders a new audio file using the current tempo, pitch/transpose, equalizer, Instrument Focus, and Element Removal settings. A new file is created even when no processing changes are active, and you choose its save location through the system file picker or save panel.
+Adding a music folder does not copy your whole library into AudioShift. Selected cloud-backed files may be downloaded by iCloud or another file provider, including during background artwork and metadata loading. AudioShift does not send this content to the developer or a cloud-analysis service.
 
-On macOS, AudioShift requests read/write access to user-selected locations so it can save the new file where you choose. This permission is not used to alter the selected source file.
+Studio stores recordings, MIDI notes, edits, instrument choices, and rendered audio locally. Video projects and imported MIDI/Sampler instruments keep app-owned copies of the selected media. Sampler projects also store mappings, settings, and instrument revisions. Originals are not changed. These app-owned files may be included in system backups.
 
-## Local Audio Processing and Analysis
+The system Photos picker provides the items you select, not unrestricted access to your photo library. Cloud selections may require downloading. Saving an exported video to Photos may request add-only permission.
 
-AudioShift performs playback changes, tempo and chord analysis, pitch and tempo adjustment, equalization, instrument filtering, and audio export locally on your device. Any analysis results, corrections, playback settings, and cached metadata are stored locally in the app's container. AudioShift does not upload audio, exports, or analysis results to the developer or to a cloud analysis service.
+## Optional lyric drafts
 
-## Audio Export and Your Content
+On compatible iOS/iPadOS 26 or later devices, Apple's on-device SpeechAnalyzer can generate an editable draft from a selected audio file. AudioShift sends neither audio nor recognised text to Apple servers for transcription or to the developer. This feature uses no microphone or server-based recognition fallback.
 
-AudioShift can create a new audio file from a user-selected local source file. The export may include the playback changes you selected in the app. Temporary render files may be created in the app's local container while an export is prepared and are removed after the export is completed or cancelled.
+Starting generation may download an Apple language model using network data and system storage. Supported languages and devices vary. The language choice is remembered locally; draft text is saved to the song only when you choose Save. Optional structure and interjection suggestions are local text estimates, not verified musical or speaker identification.
 
-AudioShift does not connect to or download audio from Apple Music, Spotify, YouTube, or other streaming services, and it does not bypass digital rights management (DRM) or copy protection. You are responsible for having the necessary rights or permissions to edit, export, or share the material you select.
+## Recording, MIDI, and microphone tools
 
-## Microphone
+Microphone permission is requested for recording, tuning, and Sound Meter. Input from microphones, audio interfaces, and MIDI devices is processed locally through system services. Recordings start at your request.
 
-AudioShift requests microphone access only when you choose to use a feature that needs it, such as the tuner or audio recording. Microphone audio is processed locally. Recordings you create are stored locally in the app's container and are not transmitted to the developer or third parties.
+Sound Meter does not save audio recordings. Its graph history stays in memory; calibration and preferences are saved locally. Measurement stops when the tool closes or becomes inactive. You can change microphone permission in [system settings](https://support.apple.com/guide/iphone/control-access-to-hardware-features-iph168c4bbd5/ios). Microphone-dependent features cannot operate without permission.
 
-You can deny or revoke microphone access in your device's system settings. Features that require the microphone will not work while access is denied.
+## Exports and sharing
 
-## Local Storage and Retention
+Exports create new files without editing the source media. You choose where to save or share them. Choosing to replace an existing destination file may overwrite that destination. Recipients, apps, and storage services handle shared copies under their own terms. AudioShift does not operate a public media-hosting service or bypass DRM.
 
-AudioShift may store settings, security-scoped bookmarks for folders you selected, cached artwork and metadata, audio-analysis results, recordings, and temporary export files locally on your device. Temporary export files are removed after the save operation is completed or cancelled. Other information remains until you remove it using available app controls, revoke folder access, delete the relevant recording, or uninstall the app, subject to your device's backup and restore settings.
+Temporary render/share files are normally cleaned up after completion or cancellation; interrupted work can leave temporary copies. This does not delete exports you or a recipient have saved. Exports, filenames, and media tags can contain personal information: review what you share. Exporting is not an anonymisation process.
 
-The developer cannot access or recover this locally stored information. Depending on your device settings, the operating system may include app data in a device backup managed by Apple or another platform provider.
+## Storage, removal, and backups
 
-## File and Storage Providers
+Local settings and project data remain until removed through app controls or device storage management. Removing folder access inside AudioShift removes the linked app-owned practice data and recordings, not your original folder or external exports. Export anything you want to keep first.
 
-If you select a source file from, or save an exported file to, iCloud Drive or another file-provider service, that provider may store or transfer the file under its own privacy policy. AudioShift accesses that provider only through the source or destination you select using the system file picker or save panel.
+Removing a Studio take, video clip, or Sampler zone may retain its media for Undo or existing revisions. Removing the associated folder's app data, video project, or Sampler instrument removes the corresponding app-owned files. Existing rendered MIDI takes can still play after an imported instrument is removed, but rendering them again requires an available instrument. Subscription expiry does not itself delete your data.
 
-## Accounts, Analytics, Advertising, and Tracking
+Revoking permission does not delete app data. Offloading on iOS can retain it; deleting the macOS app can leave its container. Backups, cloud copies, and external exports have their own deletion controls. The developer cannot remotely retrieve, erase, or recover projects held only on your device. Keep backups of important work.
 
-AudioShift does not require an account and does not include third-party analytics, advertising SDKs, tracking, or external data-collection services.
+## Purchases, preferences, and diagnostics
 
-## Your Choices and Controls
+Apple handles payments, refunds, and subscription management. AudioShift uses StoreKit-verified app acquisition and subscription information locally to determine access and restore purchases. Verification may need connectivity or authentication. AudioShift receives no payment-card details and sends no transaction history to a developer-operated server.
 
-You decide which files and folders AudioShift may access, where new exports are saved, and whether to grant microphone permission. You can change microphone and file-access permissions in system settings. You can delete exported files using Files, Finder, or the relevant file provider. You can also remove selected folders, delete recordings, clear supported local data from within AudioShift where those controls are available, or uninstall the app to remove its local app container, subject to device backups.
+No AudioShift account is required. The app has no advertising, tracking, third-party analytics SDK, or automatic upload of media or local logs to the developer. Apple's own store reporting and system diagnostic sharing follow Apple's policies and your preferences.
 
-## Changes to This Privacy Policy
+Review and sharing reminders use local dates, app versions, limited practice-day markers, and preferences to avoid repeated prompts. These are not sent to the developer and do not include song identities. Apple handles any review you submit. A sharing reminder offers only app branding and the public App Store link; you choose whether and where to share. Neither action affects feature access.
 
-This policy may be updated if AudioShift's features or privacy practices change. The latest version will be published at the same privacy-policy URL with a revised "Last updated" date.
+## Support correspondence
 
-## Contact
+Contact forms prepare an email draft on your device. Name and reply address are optional. App/OS versions are included only if you enable that option; no logs, songs, or account identifiers are attached automatically. Form text stays in memory until the form closes. Your email app handles sending, and its sending account identifies you.
 
-If you have questions about this privacy policy, contact [Note.Grid.Apps@gmail.com](mailto:Note.Grid.Apps@gmail.com).
+If you email us, we receive your address, message, and any attachments. We use these to assess and respond to questions, problems, feedback, and rights requests. Do not send passwords, payment-card details, or material you cannot lawfully share. Only the developer accesses the support mailbox on our side. Gmail also processes email as the service provider, potentially outside your country; see [Google's Privacy Policy](https://policies.google.com/privacy). Email is not anonymous. We do not sell personal data or use correspondence for advertising.
+
+For voluntary questions and feedback, the legal basis is our legitimate interest in providing support and improving AudioShift. Handling a request needed to fulfil our agreement with you is based on that agreement; processing required by law is based on that legal duty. These are reasons for processing data, not a promise to implement suggestions or resolve every reported problem.
+
+The developer aims to review ordinary enquiries and, where a reply is appropriate, respond within about two weeks. This is not a guaranteed response time; busy periods may take longer. Requests concerning legal rights are handled within the applicable legal deadlines.
+
+We keep identifiable correspondence while actively assessing a request, working on a related problem, or awaiting necessary follow-up. A case is closed when answered, resolved, or assessed as needing no further action; unanswered mail is not kept indefinitely merely because it is unanswered. When no further follow-up is needed, closed correspondence is deleted or anonymised. Specific dispute records or records required by law may be kept until that matter and the relevant legal retention need have ended. Useful ideas may remain as separate notes without identifying details. Deleting our copy does not erase copies held by you or retained separately by the email provider.
+
+## Website and external services
+
+These bundled documents can be read offline. The system-settings link opens permission settings in the app; on the website it opens Apple's instructions. Other online links open in your browser and contact the relevant service.
+
+Our legal-information website uses GitHub Pages, which logs visitors' IP addresses for security. See [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Our legal pages have no analytics, advertising, embedded media, or external fonts. Apple and your chosen file/storage providers handle their services under their own policies; choosing a cloud destination can upload or sync a file. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+
+## Your choices and rights
+
+You control selections, permissions, sharing, and local project removal. For personal data sent to us, contact the email above to request access, correction, deletion, restriction, portability, or to object where applicable. You may complain to your data-protection authority, including Norway's Datatilsynet. These requests do not give the developer remote access to files held only on your device.
+
+## Updates
+
+Changes are dated in this policy. The app carries the copy from its installed version; the online copy may be newer. Material changes to data practices require an updated policy and any notice or consent required by law.
